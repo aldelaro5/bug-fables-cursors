@@ -6,7 +6,7 @@ comment="Bug Fables cursors."
 
 # Cleanup old builds
 rm -rf themes bin &&
-ctgen build.toml -p x11 -s 64 &&
+ctgen build.toml -p x11 &&
 
 # Building Pokemon Windows binaries
 ctgen build.toml -p windows -s 16 -d "bitmaps/${key}" -n "${key}-Small" -c "$comment" &&
