@@ -1,12 +1,12 @@
 #!/bin/bash
 # A script for preparing binaries for version release of Pokemon Cursors, by Abdulkaiz Khatri
 
-key="bf"
-comment="An unofficial Bug Fables cursors."
+key="Bug Fables"
+comment="Bug Fables cursors."
 
 # Cleanup old builds
 rm -rf themes bin &&
-ctgen build.toml -p x11 &&
+ctgen build.toml -p x11 -s 64 &&
 
 # Building Pokemon Windows binaries
 ctgen build.toml -p windows -s 16 -d "bitmaps/${key}" -n "${key}-Small" -c "$comment" &&

@@ -1,12 +1,12 @@
 [theme]
 name = 'Bug Fables'
 comment = 'A Bug Fables theme for Windows and Linux.'
-website = 'none'
+website = 'https://github.com/aldelaro5/bug-fables-cursors'
 
 [config]
-bitmaps_dir = 'bitmaps/bf'
+bitmaps_dir = 'bitmaps/Bug Fables'
 out_dir = 'themes'
-platforms = ['x11', 'windows']
+platforms = ['X11', 'windows']
 x11_sizes = [22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96]
 win_size = 32
 
@@ -15,8 +15,8 @@ win_size = 32
 [cursors.fallback_settings]
 x_hotspot = 0
 y_hotspot = 0
-x11_delay = 10
-win_delay = 1
+x11_delay = 50
+win_delay = 5
 
 [cursors.all-scroll]
 png = 'all-scroll.png'
@@ -152,7 +152,7 @@ win_name = 'Default'
 x11_symlinks = ["arrow", "default", "top_left_arrow"]
 
 [cursors.left_ptr_watch]
-png = 'left_ptr_watch.png'
+png = 'left_ptr_watch-*.png'
 x_hotspot = 11
 y_hotspot = 4
 x11_name = 'left_ptr_watch'
@@ -359,9 +359,9 @@ y_hotspot = 69
 x11_name = 'wayland-cursor'
 
 [cursors.wait]
-png = 'wait.png'
-x_hotspot = 41
-y_hotspot = 41
+png = 'wait-*.png'
+x_hotspot = 47
+y_hotspot = 46
 x11_name = 'wait'
 win_name = 'Busy'
 x11_symlinks = ["watch"]
