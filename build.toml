@@ -16,7 +16,7 @@ win_size = 32
 x_hotspot = 0
 y_hotspot = 0
 x11_delay = 50
-win_delay = 5
+win_delay = 1
 
 [cursors.all-scroll]
 png = 'all-scroll.png'
